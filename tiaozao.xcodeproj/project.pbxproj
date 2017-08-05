@@ -22,9 +22,13 @@
 		63769EBE1F2243610078F396 /* login_register_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63769EBD1F2243610078F396 /* login_register_ViewController.swift */; };
 		63769EC41F2607560078F396 /* app图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 63769EC31F2607560078F396 /* app图标.png */; };
 		63769EC81F2609200078F396 /* 启动界面.png in Resources */ = {isa = PBXBuildFile; fileRef = 63769EC71F2609200078F396 /* 启动界面.png */; };
-		63769EE81F26240C0078F396 /* login_register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63769EE71F26240C0078F396 /* login_register.swift */; };
+		63E574A41F3584BD000FA68A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63E574A31F3584BD000FA68A /* Podfile */; };
+		63E574AA1F3596D2000FA68A /* s_info_register_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E574A91F3596D2000FA68A /* s_info_register_ViewController.swift */; };
+		63E574AF1F35BD14000FA68A /* 原始头像.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63E574AE1F35BD14000FA68A /* 原始头像.jpeg */; };
+		63E574B11F35CEEC000FA68A /* mimashezhi_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E574B01F35CEEC000FA68A /* mimashezhi_View.swift */; };
 		63EE70B81F30862700A653D2 /* school.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63EE70B71F30862700A653D2 /* school.plist */; };
 		63EE70BA1F3086B400A653D2 /* school_register_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE70B91F3086B400A653D2 /* school_register_ViewController.swift */; };
+		D6A9B5AE8BDFD84755047CEF /* Pods_tiaozao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A4B5CE3200397A92050EAF /* Pods_tiaozao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,9 +49,16 @@
 		63769EBD1F2243610078F396 /* login_register_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login_register_ViewController.swift; sourceTree = "<group>"; };
 		63769EC31F2607560078F396 /* app图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app图标.png"; path = "图片/app图标.png"; sourceTree = SOURCE_ROOT; };
 		63769EC71F2609200078F396 /* 启动界面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "启动界面.png"; path = "图片/启动界面.png"; sourceTree = SOURCE_ROOT; };
-		63769EE71F26240C0078F396 /* login_register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login_register.swift; sourceTree = "<group>"; };
+		63E574A31F3584BD000FA68A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		63E574A51F35861E000FA68A /* tiaozao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tiaozao-Bridging-Header.h"; sourceTree = "<group>"; };
+		63E574A91F3596D2000FA68A /* s_info_register_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = s_info_register_ViewController.swift; sourceTree = "<group>"; };
+		63E574AE1F35BD14000FA68A /* 原始头像.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "原始头像.jpeg"; path = "图片/原始头像.jpeg"; sourceTree = SOURCE_ROOT; };
+		63E574B01F35CEEC000FA68A /* mimashezhi_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mimashezhi_View.swift; sourceTree = "<group>"; };
 		63EE70B71F30862700A653D2 /* school.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = school.plist; sourceTree = SOURCE_ROOT; };
 		63EE70B91F3086B400A653D2 /* school_register_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = school_register_ViewController.swift; path = ../school_register_ViewController.swift; sourceTree = "<group>"; };
+		9E33C75E323F2DB64D35172F /* Pods-tiaozao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiaozao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tiaozao/Pods-tiaozao.debug.xcconfig"; sourceTree = "<group>"; };
+		F0A4B5CE3200397A92050EAF /* Pods_tiaozao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tiaozao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EAF5D2BB7FCDF797A72FCF /* Pods-tiaozao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiaozao.release.xcconfig"; path = "Pods/Target Support Files/Pods-tiaozao/Pods-tiaozao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A9B5AE8BDFD84755047CEF /* Pods_tiaozao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +76,11 @@
 		6346B1231F2233BC00DEA397 = {
 			isa = PBXGroup;
 			children = (
+				63E574A31F3584BD000FA68A /* Podfile */,
 				6346B12E1F2233BC00DEA397 /* tiaozao */,
 				6346B12D1F2233BC00DEA397 /* Products */,
+				6DEF543A767B6F5E37FCB582 /* Pods */,
+				8C8D361ABDD175D5085F5151 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +98,10 @@
 				6346B12F1F2233BC00DEA397 /* AppDelegate.swift */,
 				63EE70B91F3086B400A653D2 /* school_register_ViewController.swift */,
 				6346B1311F2233BC00DEA397 /* ViewController.swift */,
+				63E574B01F35CEEC000FA68A /* mimashezhi_View.swift */,
 				63769EBD1F2243610078F396 /* login_register_ViewController.swift */,
-				63769EE71F26240C0078F396 /* login_register.swift */,
 				6346B1331F2233BC00DEA397 /* Main.storyboard */,
+				63E574A91F3596D2000FA68A /* s_info_register_ViewController.swift */,
 				187B33341F2ECB8B00EA34B0 /* mobile_register_ViewController.swift */,
 				631D8DC41F29F91E005A3A68 /* home_view.swift */,
 				631D8DC61F29FA9E005A3A68 /* infor_view.swift */,
@@ -95,12 +111,31 @@
 				63769EC31F2607560078F396 /* app图标.png */,
 				631D8DD21F2A2A95005A3A68 /* 个人.png */,
 				63769EC71F2609200078F396 /* 启动界面.png */,
+				63E574AE1F35BD14000FA68A /* 原始头像.jpeg */,
 				631D8DD01F2A2928005A3A68 /* 消息.png */,
 				631D8DCE1F2A2638005A3A68 /* 首页.png */,
 				6346B1381F2233BC00DEA397 /* LaunchScreen.storyboard */,
 				6346B13B1F2233BC00DEA397 /* Info.plist */,
+				63E574A51F35861E000FA68A /* tiaozao-Bridging-Header.h */,
 			);
 			path = tiaozao;
+			sourceTree = "<group>";
+		};
+		6DEF543A767B6F5E37FCB582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E33C75E323F2DB64D35172F /* Pods-tiaozao.debug.xcconfig */,
+				F4EAF5D2BB7FCDF797A72FCF /* Pods-tiaozao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C8D361ABDD175D5085F5151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4B5CE3200397A92050EAF /* Pods_tiaozao.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6346B13E1F2233BC00DEA397 /* Build configuration list for PBXNativeTarget "tiaozao" */;
 			buildPhases = (
+				8D9D7CD8D686DF3F3B9D68DC /* [CP] Check Pods Manifest.lock */,
 				6346B1281F2233BC00DEA397 /* Sources */,
 				6346B1291F2233BC00DEA397 /* Frameworks */,
 				6346B12A1F2233BC00DEA397 /* Resources */,
+				8AE6E8D7A0A139EAC56E18B5 /* [CP] Embed Pods Frameworks */,
+				E6A0BF8DFA0265C9198AE6C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +174,7 @@
 					6346B12B1F2233BC00DEA397 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = LAP4768476;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E574A41F3584BD000FA68A /* Podfile in Resources */,
 				631D8DD11F2A2928005A3A68 /* 消息.png in Resources */,
 				6346B13A1F2233BC00DEA397 /* LaunchScreen.storyboard in Resources */,
 				63769EC81F2609200078F396 /* 启动界面.png in Resources */,
@@ -170,6 +210,7 @@
 				63769EC41F2607560078F396 /* app图标.png in Resources */,
 				631D8DD31F2A2A95005A3A68 /* 个人.png in Resources */,
 				631D8DCF1F2A2638005A3A68 /* 首页.png in Resources */,
+				63E574AF1F35BD14000FA68A /* 原始头像.jpeg in Resources */,
 				63EE70B81F30862700A653D2 /* school.plist in Resources */,
 				6346B1351F2233BC00DEA397 /* Main.storyboard in Resources */,
 			);
@@ -177,16 +218,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AE6E8D7A0A139EAC56E18B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tiaozao/Pods-tiaozao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9D7CD8D686DF3F3B9D68DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A0BF8DFA0265C9198AE6C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tiaozao/Pods-tiaozao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6346B1281F2233BC00DEA397 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63EE70BA1F3086B400A653D2 /* school_register_ViewController.swift in Sources */,
+				63E574B11F35CEEC000FA68A /* mimashezhi_View.swift in Sources */,
 				631D8DC91F29FAB1005A3A68 /* personal_view.swift in Sources */,
-				63769EE81F26240C0078F396 /* login_register.swift in Sources */,
 				631D8DC71F29FA9E005A3A68 /* infor_view.swift in Sources */,
 				631D8DC51F29F91E005A3A68 /* home_view.swift in Sources */,
+				63E574AA1F3596D2000FA68A /* s_info_register_ViewController.swift in Sources */,
 				187B33351F2ECB8B00EA34B0 /* mobile_register_ViewController.swift in Sources */,
 				6346B1321F2233BC00DEA397 /* ViewController.swift in Sources */,
 				6346B1301F2233BC00DEA397 /* AppDelegate.swift in Sources */,
@@ -311,28 +401,79 @@
 		};
 		6346B13F1F2233BC00DEA397 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E33C75E323F2DB64D35172F /* Pods-tiaozao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LAP4768476;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Utils\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Object\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Query\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Geo\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/File\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/ACL\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/User\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Status\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Statistics\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/SMS\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Search\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Cache\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Router\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/CloudCode\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Push\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Request\"",
+				);
 				INFOPLIST_FILE = tiaozao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.tiaozao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tiaozao/tiaozao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6346B1401F2233BC00DEA397 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EAF5D2BB7FCDF797A72FCF /* Pods-tiaozao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LAP4768476;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Utils\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Object\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Query\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Geo\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/File\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/ACL\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/User\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Status\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Statistics\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/SMS\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Search\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Cache\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Captcha\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Router\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/CloudCode\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Push\"",
+					"\"$(SRCROOT)/Pods/AVOSCloud/AVOS/AVOSCloud/Request\"",
+				);
 				INFOPLIST_FILE = tiaozao/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = david.tiaozao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tiaozao/tiaozao-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

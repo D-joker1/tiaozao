@@ -145,5 +145,36 @@ class school_register_ViewController:UIViewController, UIPickerViewDelegate, UIP
         xuexiao.text = schools
         
     }
+    //下一步
+    @IBAction func next(_ sender: Any) {
+        if xuexiao.text == " "  {
+            let alertController1 = UIAlertController(title:"提示",message:"还没填写学校信息！",preferredStyle:UIAlertControllerStyle.alert)
+            let action1 = UIAlertAction(title:"确定",style:UIAlertActionStyle.default,handler:nil)
+            alertController1.addAction(action1)
+            self.present(alertController1,animated:true,completion: nil)
+        }else{
+            let sb = UIStoryboard(name:"Main", bundle: nil)
+            let vc1 = sb.instantiateViewController(withIdentifier: "zhuce_xueshengxinxizhuce") as UIViewController
+            self.present(vc1, animated: true, completion: nil)
+            //传值给 mimashezhi_View
+            let defaults1 = UserDefaults.standard
+            defaults1.setValue(sheng.text, forKey: "sheng")
+            defaults1.synchronize()
+            let detail_vc1 = mimashezhi_View()
+            self.present(detail_vc1, animated: true, completion: nil)
+            //
+            let defaults2 = UserDefaults.standard
+            defaults2.setValue(shi.text, forKey: "shi")
+            defaults2.synchronize()
+            //
+            let detail_vc2 = mimashezhi_View()
+            self.present(detail_vc2, animated: true, completion: nil)
+            let defaults3 = UserDefaults.standard
+            defaults3.setValue(xuexiao.text, forKey: "xuexiao")
+            defaults3.synchronize()
+            let detail_vc3 = mimashezhi_View()
+            self.present(detail_vc3, animated: true, completion: nil)
+        }
+    }
     
 }

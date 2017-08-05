@@ -23,6 +23,8 @@ class mobile_register_ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+
     @IBAction func error(_ sender: Any) {
         //没有填写手机号
         let phoneNumber = mobile.text
@@ -44,6 +46,12 @@ class mobile_register_ViewController: UIViewController {
             let sb = UIStoryboard(name:"Main", bundle: nil)
             let vc1 = sb.instantiateViewController(withIdentifier: "zhuce_xuexiaozhuce") as UIViewController
             self.present(vc1, animated: true, completion: nil)
+            //传值给 mimashezhi_View
+            let defaults = UserDefaults.standard
+            defaults.setValue(mobile.text, forKey: "mobile")
+            defaults.synchronize()
+            let detail_vc = mimashezhi_View()
+            self.present(detail_vc, animated: true, completion: nil)
         }
     }
 

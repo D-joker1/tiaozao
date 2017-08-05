@@ -38,5 +38,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>tiaozao</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>tiaozao</string>
 </dict>
 </plist>

@@ -13,7 +13,7 @@ class login_register_ViewController: UIViewController {
 
     @IBOutlet var zhanghu: UITextField!
     @IBOutlet var mima: UITextField!
-    @IBOutlet var zhuce: UIButton!
+
     
 
     override func viewDidLoad() {
