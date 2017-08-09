@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AVOSCloud.setApplicationId("ut5B7aJ2l4BLJbs3efim7fI4-gzGzoHsz",clientKey:"Dm9NJd5M0UmsY4rLH1nuPz3x")
         AVAnalytics.trackAppOpened(launchOptions:launchOptions)
 
-        
+        login()
 
          return true
     }
@@ -46,6 +46,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func login() {
+        let username:String? = UserDefaults.standard.string(forKey: "username")
+        if username != nil {
+            let storyboard:UIStoryboard = UIStoryboard(name:"Main",bundle:nil)
+            let myTabbar = storyboard.instantiateViewController(withIdentifier: "tabbar") as! UITabBarController
+            window?.rootViewController = myTabbar
+        }
+    }
 
 }
 

@@ -125,6 +125,10 @@ class mimashezhi_View: UIViewController,UIImagePickerControllerDelegate,UINaviga
             user.signUpInBackground {(success:Bool, error:Error? ) in
                 if success {
                     print("用户注册成功")
+                    UserDefaults.standard.set(user.username, forKey: "username")
+                    UserDefaults.standard.synchronize()
+                    let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+                    appDelegate.login()
                 }else{
                     print(error?.localizedDescription)
                 }

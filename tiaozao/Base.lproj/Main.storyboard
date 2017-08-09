@@ -31,7 +31,7 @@
         <!--Item-->
         <scene sceneID="Dps-f3-WcO">
             <objects>
-                <viewController storyboardIdentifier="geren" id="JbO-Yo-8KV" customClass="personal_view" customModule="tiaozao" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="geren" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JbO-Yo-8KV" customClass="personal_view" customModule="tiaozao" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Daz-al-9fX"/>
                         <viewControllerLayoutGuide type="bottom" id="PYR-Wg-URS"/>
@@ -61,6 +61,61 @@
             </objects>
             <point key="canvasLocation" x="917.60000000000002" y="1942.5787106446778"/>
         </scene>
+        <!--Forget mima View Controller-->
+        <scene sceneID="N49-2v-muI">
+            <objects>
+                <viewController id="BRE-tu-fYr" customClass="forget_mima_ViewController" customModule="tiaozao" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JjD-dP-RlX"/>
+                        <viewControllerLayoutGuide type="bottom" id="4L4-tM-3Pd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="up6-iP-ajq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="电子邮箱" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="g8r-7C-w3k">
+                                <rect key="frame" x="16" y="86" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Or3-Rj-vh2">
+                                <rect key="frame" x="35" y="135" width="72" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="密码重置">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetbtn_clicked:" destination="BRE-tu-fYr" eventType="touchUpInside" id="EOF-Ft-a68"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0b3-NN-3lM">
+                                <rect key="frame" x="271" y="135" width="72" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63905853430000004" green="0.63905853430000004" blue="0.63905853430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="取消">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelbtn_clicked:" destination="BRE-tu-fYr" eventType="touchUpInside" id="969-N3-crV"/>
+                                    <segue destination="fcN-ed-Jj4" kind="presentation" id="UnA-uE-Pm2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97667485480000005" green="0.83697712420000003" blue="0.206535846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="cancelbtn" destination="0b3-NN-3lM" id="I08-Mq-dVI"/>
+                        <outlet property="emailtxt" destination="g8r-7C-w3k" id="mjA-Te-f2z"/>
+                        <outlet property="resetbtn" destination="Or3-Rj-vh2" id="sXZ-ak-SSe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5g-ni-GKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853.5999999999999" y="2810.6446776611697"/>
+        </scene>
         <!--Item 1-->
         <scene sceneID="jgj-dj-Uv0">
             <objects>
@@ -83,7 +138,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="coD-fo-vna">
             <objects>
-                <tabBarController id="W32-mv-ldc" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabbar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="W32-mv-ldc" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qxg-2l-3Ok">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -159,6 +214,9 @@
                                 <state key="normal" title="忘记密码">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BRE-tu-fYr" kind="presentation" id="AUU-WT-0Bc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_________________________________________________" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfS-Z5-sG6">
                                 <rect key="frame" x="47" y="380" width="298" height="21"/>
@@ -656,7 +714,7 @@
         <image name="原始头像.jpeg" width="580" height="588"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="v4Q-7u-X7D"/>
-        <segue reference="ZV3-QK-230"/>
+        <segue reference="UnA-uE-Pm2"/>
+        <segue reference="unX-iR-caa"/>
     </inferredMetricsTieBreakers>
 </document>

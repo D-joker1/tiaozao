@@ -59,7 +59,16 @@ class login_register_ViewController: UIViewController {
             alertController3.addAction(action3)
             self.present(alertController3,animated: true,completion: nil)
         }
-    }
+        AVUser.logInWithUsername(inBackground: zhanghu.text!, password: mima.text!) { (user:AVUser?,error:Error?) in
+            if error ==  nil {
+                UserDefaults.standard.set(user!.username, forKey: "username")
+                UserDefaults.standard.synchronize()
+                let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+                appDelegate.login()
+            }
+        }
+        
+        }
 
     
     

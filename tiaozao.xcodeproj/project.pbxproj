@@ -19,6 +19,7 @@
 		6346B1351F2233BC00DEA397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1331F2233BC00DEA397 /* Main.storyboard */; };
 		6346B1371F2233BC00DEA397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1361F2233BC00DEA397 /* Assets.xcassets */; };
 		6346B13A1F2233BC00DEA397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1381F2233BC00DEA397 /* LaunchScreen.storyboard */; };
+		6355419C1F3AC517000846D6 /* forget_mima_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355419B1F3AC517000846D6 /* forget_mima_ViewController.swift */; };
 		63769EBE1F2243610078F396 /* login_register_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63769EBD1F2243610078F396 /* login_register_ViewController.swift */; };
 		63769EC41F2607560078F396 /* app图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 63769EC31F2607560078F396 /* app图标.png */; };
 		63769EC81F2609200078F396 /* 启动界面.png in Resources */ = {isa = PBXBuildFile; fileRef = 63769EC71F2609200078F396 /* 启动界面.png */; };
@@ -46,6 +47,7 @@
 		6346B1361F2233BC00DEA397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6346B1391F2233BC00DEA397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6346B13B1F2233BC00DEA397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6355419B1F3AC517000846D6 /* forget_mima_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forget_mima_ViewController.swift; sourceTree = "<group>"; };
 		63769EBD1F2243610078F396 /* login_register_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login_register_ViewController.swift; sourceTree = "<group>"; };
 		63769EC31F2607560078F396 /* app图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app图标.png"; path = "图片/app图标.png"; sourceTree = SOURCE_ROOT; };
 		63769EC71F2609200078F396 /* 启动界面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "启动界面.png"; path = "图片/启动界面.png"; sourceTree = SOURCE_ROOT; };
@@ -101,6 +103,7 @@
 				63E574B01F35CEEC000FA68A /* mimashezhi_View.swift */,
 				63769EBD1F2243610078F396 /* login_register_ViewController.swift */,
 				6346B1331F2233BC00DEA397 /* Main.storyboard */,
+				6355419B1F3AC517000846D6 /* forget_mima_ViewController.swift */,
 				63E574A91F3596D2000FA68A /* s_info_register_ViewController.swift */,
 				187B33341F2ECB8B00EA34B0 /* mobile_register_ViewController.swift */,
 				631D8DC41F29F91E005A3A68 /* home_view.swift */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63EE70BA1F3086B400A653D2 /* school_register_ViewController.swift in Sources */,
+				6355419C1F3AC517000846D6 /* forget_mima_ViewController.swift in Sources */,
 				63E574B11F35CEEC000FA68A /* mimashezhi_View.swift in Sources */,
 				631D8DC91F29FAB1005A3A68 /* personal_view.swift in Sources */,
 				631D8DC71F29FA9E005A3A68 /* infor_view.swift in Sources */,
