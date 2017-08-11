@@ -321,14 +321,6 @@
                                     <action selector="sendCode:" destination="8Dn-A4-Uho" eventType="touchUpInside" id="f8p-c9-rhg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjv-BJ-qMO">
-                                <rect key="frame" x="149" y="307" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="提交验证码"/>
-                                <connections>
-                                    <action selector="sumbitCode:" destination="8Dn-A4-Uho" eventType="touchUpInside" id="A4w-Bs-Zr4"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="oIb-m6-P5H">
                                 <rect key="frame" x="48" y="191" width="152" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
