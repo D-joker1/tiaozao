@@ -20,8 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AVAnalytics.trackAppOpened(launchOptions:launchOptions)
 
         login()
-
-         return true
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

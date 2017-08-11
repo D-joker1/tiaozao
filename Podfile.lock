@@ -18,17 +18,23 @@ PODS:
     - AVOSCloudIM/_NOARC (= 7.1.0)
   - AVOSCloudIM/_NOARC (7.1.0):
     - AVOSCloud (= 7.1.0)
+  - MOBFoundation (3.0.1)
+  - SMSSDK (3.0.1):
+    - MOBFoundation
 
 DEPENDENCIES:
   - AVOSCloud
   - AVOSCloudCrashReporting
   - AVOSCloudIM
+  - SMSSDK
 
 SPEC CHECKSUMS:
   AVOSCloud: 8eebafb173f584c00a3ff68b0c98b9de3688da65
   AVOSCloudCrashReporting: 70cc4bdc6070bdfa127b9d4d927f09d54f5ba812
   AVOSCloudIM: a93815efaec33aeefe6c4df6ac1f7df8b867d576
+  MOBFoundation: 08328ccde124b687ac5e4367c2ccfc5b4d0235b7
+  SMSSDK: a811c8ea6e89393097037b7cf6493248a40e50f0
 
-PODFILE CHECKSUM: 92049cec2e527ea9bdb122a7d0bac28ee5087084
+PODFILE CHECKSUM: d33b8e6449ac10bb4e4baadf4847745fb796cee4
 
 COCOAPODS: 1.2.1

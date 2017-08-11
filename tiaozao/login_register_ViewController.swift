@@ -14,12 +14,14 @@ class login_register_ViewController: UIViewController {
     @IBOutlet var zhanghu: UITextField!
     @IBOutlet var mima: UITextField!
 
+    @IBOutlet weak var label: UILabel!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        label.font = UIFont(name:"Pacifico",size:25)
     }
    
     

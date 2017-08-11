@@ -19,6 +19,7 @@ class forget_mima_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     @IBAction func resetbtn_clicked(_ sender: Any) {
         self.view.endEditing(true)

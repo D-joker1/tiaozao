@@ -12,6 +12,7 @@ class mobile_register_ViewController: UIViewController {
 
 
     @IBOutlet var mobile: UITextField!
+    @IBOutlet weak var code: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -55,6 +56,25 @@ class mobile_register_ViewController: UIViewController {
         }
     }
 
+    @IBAction func sendCode(_ sender: UIButton) {
+        SMSSDK.getVerificationCode(by: SMSGetCodeMethodSMS, phoneNumber: mobile.text, zone: "86") { (error:Error?) in
+            if error == nil {
+                print("获取验证码成功")
+            } else {
+                print("错误描述\(String(describing:error))")
+            }
+        }
+    }
+    @IBAction func sumbitCode(_ sender: UIButton) {
+        SMSSDK.commitVerificationCode("86", phoneNumber: mobile.text, zone: code.text) { (error) in
+            if error == nil {
+                print("验证成功")
+            } else {
+                print("验证失败")
+            }
+        }
+    }
+    
     
  /*
     // MARK: - Navigation

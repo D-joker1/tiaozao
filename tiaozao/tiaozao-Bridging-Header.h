@@ -3,3 +3,4 @@
 //
 
 #import <AVOSCloud.h>
+#import <SMS_SDK/SMSSDK.h>
